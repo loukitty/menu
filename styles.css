@@ -1,7 +1,22 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
 :root {
-    --cor-de-fundo: #fffeff;
+    --cor-de-fundo: #284681;
+    --amarelo: #cbda27;
+    --rosa: #c02a5f;
+    --verde-degrade: linear-gradient(97.54deg, #367c23 35.49%, #7ce333 165.37%);
+    --fonte-principal: "Roboto";
+    --verde: #1ec355;
 }
 
 body {
-    background-color: var(--cor-de-fundo)
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
